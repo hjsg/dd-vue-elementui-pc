@@ -15,6 +15,7 @@ Vue.use(ElementUI)
 Vue.use(VueCookies)
 
 Vue.prototype.$http = $http
+Vue.prototype.$bus = new Vue()
 Vue.config.productionTip = false
 
 router.beforeEach((to, from, next) => {
