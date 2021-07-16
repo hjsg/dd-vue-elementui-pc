@@ -16,10 +16,6 @@ export const routes = [
 ]
 
 const router = new VueRouter({
-    routes,
-    linkActiveClass: 'active',
-    linkExactActiveClass: 'active',
-    scrollBehavior: () => ({y: 0}),
-    mode: 'history'
+    routes
 })
 export default router
